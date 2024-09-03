@@ -49,7 +49,7 @@ The CICIDS 2017 dataset includes real-world network traffic and reflects current
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/SmartIDS.git
+   git clone https://github.com/danlig/SmartIDS.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -62,4 +62,4 @@ The CICIDS 2017 dataset includes real-world network traffic and reflects current
 
 ## Acknowledgments
 
-This project was developed as part of a Master's thesis. Special thanks to all who contributed to the research and development of SmartIDS.
+This project was developed as part of the thesis relative to my Computer Science degree. Special thanks to all who contributed to the research and development of SmartIDS.
