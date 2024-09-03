@@ -6,21 +6,6 @@ SmartIDS is a project that integrates Machine Learning techniques to improve the
 
 This repository contains code and resources developed as part of a research thesis that explores the application of various machine learning models to intrusion detection. The project evaluates models such as Naive Bayes, Logistic Regression, Random Forest, MLP, and others to identify the best approaches for improving IDS accuracy.
 
-## Key Features
-
-- **Binary and Multi-class Classification**: Evaluate the performance of different machine learning models on binary (Benign vs. Malicious) and multi-class (specific attack types) classification tasks.
-- **Cross-validation**: Stratified cross-validation is used to ensure the robustness of the models and prevent overfitting.
-- **Comprehensive Analysis**: The results include accuracy, precision, recall, and F1-score metrics for each model, providing insights into the strengths and weaknesses of each approach.
-- **Scalable**: Designed to handle large datasets, making it applicable to real-world network traffic analysis.
-
-## Models Evaluated
-
-1. **Naive Bayes**
-2. **Logistic Regression**
-3. **Linear Discriminant Analysis**
-4. **Random Forest**
-5. **MLP (Multilayer Perceptron)**
-
 ## Datasets
 
 The SmartIDS project relies on publicly available intrusion detection datasets to train and evaluate the machine learning models. Below are the datasets used and instructions on how to download them.
@@ -44,6 +29,23 @@ The CICIDS 2017 dataset includes real-world network traffic and reflects current
   1. Go to the download page.
   2. Download the dataset files (e.g., CSV format).
   3. Extract the files and move them to the `datasets/cicids2017/` directory
+
+## Key Features
+
+- **Binary and Multi-class Classification**: Evaluate the performance of different machine learning models on binary (Benign vs. Malicious) and multi-class (specific attack types) classification tasks.
+- **Cross-validation**: Stratified cross-validation is used to ensure the robustness of the models and prevent overfitting.
+- **XGBoost**: Includes evaluation of the XGBoost algorithm for its performance in intrusion detection tasks.
+- **GridSearch**: Utilizes GridSearch for hyperparameter tuning to optimize model performance.
+- **Comprehensive Analysis**: The results include accuracy, precision, recall, and F1-score metrics for each model, providing insights into the strengths and weaknesses of each approach.
+- **Scalable**: Designed to handle large datasets, making it applicable to real-world network traffic analysis.
+
+## Models Evaluated
+
+1. **Naive Bayes**
+2. **Logistic Regression**
+3. **Linear Discriminant Analysis**
+4. **Random Forest**
+5. **MLP (Multilayer Perceptron)**
 
 ## Installation
 
